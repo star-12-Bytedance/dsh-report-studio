@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 打包产物
+*.tgz
+dist/
+build/
+
+# 运行时状态（本插件写在 ~/.dsh/report-studio/，不在仓库里；
+# 但本地调试时若把 config.dir 指到仓库内，这些就是产物）
+reports/
+*.snapshot.json
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,72 @@
+{
+  "name": "@xinghe-source/dsh-report-studio",
+  "version": "0.1.0",
+  "description": "Living reports for DeepSeek Harness (DSH): named reports accumulate timestamped snapshots, and every run is diffed against the previous one, so 'what is new since last time' is a first-class answer instead of two unrelated documents.",
+  "license": "MIT",
+  "author": {
+    "name": "Xinghe-Source",
+    "email": "niu071112@qq.com",
+    "url": "https://github.com/Xinghe-Source"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "report",
+    "snapshot",
+    "diff",
+    "baseline",
+    "pentest-report",
+    "src-report",
+    "writeup",
+    "报告",
+    "快照",
+    "差异对比",
+    "基线"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xinghe-Source/dsh-report-studio.git"
+  },
+  "homepage": "https://github.com/Xinghe-Source/dsh-report-studio#readme",
+  "bugs": {
+    "url": "https://github.com/Xinghe-Source/dsh-report-studio/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-tools": "*",
+    "@deepseek-ai/schemastery": "*"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "check:strict": "node scripts/check.mjs --strict",
+    "pack:check": "npm pack --dry-run"
+  }
+}

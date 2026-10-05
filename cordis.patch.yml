@@ -1,0 +1,18 @@
+# @xinghe-source/dsh-report-studio 挂载补丁（bundle patch，insert 语义）
+# 作为 dsh.profile.bundles 层在 profile 上做一次 insert；后到的 bundle 层与用户
+# cordis.patch.yml 按行 id 覆盖。config 保持静态字面量（Loader 表达式求值约束）。
+#
+# 这里刻意不写 dir：状态根目录默认取 ~/.dsh/report-studio，写死在补丁里会变成
+# 某台机器的绝对路径。需要改时在用户自己的 cordis.patch.yml 里按 id 覆盖。
+- insert:
+    - id: report-studio
+      name: '@xinghe-source/dsh-report-studio'
+      config:
+        identityFields:
+          - key
+          - id
+          - title
+          - name
+        diffLimit: 50
+        maxSnapshots: 0
+        maxBodyChars: 200000
