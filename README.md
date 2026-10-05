@@ -191,7 +191,7 @@ $ report_diff({ report: "无key报告" })
 ## 安装
 
 ```bash
-dsh plugin --profile <你的profile> add @xinghe-source/dsh-report-studio
+dsh plugin --profile <你的profile> add @star-12-bytedance/dsh-report-studio
 ```
 
 或从本地目录安装（开发用）：
@@ -374,7 +374,7 @@ Windows 上杀毒/索引器偶尔会短暂占用目标文件，这里对 `EPERM/
 ## 开发
 
 ```bash
-git clone https://github.com/Xinghe-Source/dsh-report-studio.git
+git clone https://github.com/star-12-Bytedance/dsh-report-studio.git
 cd dsh-report-studio
 
 # 插件里的裸导入（@deepseek-ai/*）由 DSH 提供。
@@ -411,4 +411,4 @@ npm run pack:check     # 检查将要发布的文件清单
 
 ## License
 
-[MIT](LICENSE) © 2026 Xinghe-Source
+[MIT](LICENSE) © 2026 star-12-Bytedance

@@ -1,12 +1,12 @@
 {
-  "name": "@xinghe-source/dsh-report-studio",
+  "name": "@star-12-bytedance/dsh-report-studio",
   "version": "0.1.0",
   "description": "Living reports for DeepSeek Harness (DSH): named reports accumulate timestamped snapshots, and every run is diffed against the previous one, so 'what is new since last time' is a first-class answer instead of two unrelated documents.",
   "license": "MIT",
   "author": {
-    "name": "Xinghe-Source",
+    "name": "star-12-Bytedance",
     "email": "niu071112@qq.com",
-    "url": "https://github.com/Xinghe-Source"
+    "url": "https://github.com/star-12-Bytedance"
   },
   "type": "module",
   "main": "index.js",
@@ -42,11 +42,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xinghe-Source/dsh-report-studio.git"
+    "url": "git+https://github.com/star-12-Bytedance/dsh-report-studio.git"
   },
-  "homepage": "https://github.com/Xinghe-Source/dsh-report-studio#readme",
+  "homepage": "https://github.com/star-12-Bytedance/dsh-report-studio#readme",
   "bugs": {
-    "url": "https://github.com/Xinghe-Source/dsh-report-studio/issues"
+    "url": "https://github.com/star-12-Bytedance/dsh-report-studio/issues"
   },
   "engines": {
     "node": ">=20"

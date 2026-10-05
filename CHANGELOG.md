@@ -35,5 +35,5 @@
   空态 render、快照往返、顺序无关、原子写残留、可选依赖两条分支。
 - 纯 ESM，零运行时依赖。
 
-[Unreleased]: https://github.com/Xinghe-Source/dsh-report-studio/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/Xinghe-Source/dsh-report-studio/releases/tag/v0.1.0
+[Unreleased]: https://github.com/star-12-Bytedance/dsh-report-studio/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/star-12-Bytedance/dsh-report-studio/releases/tag/v0.1.0
